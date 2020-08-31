@@ -7,8 +7,7 @@ public class AttributesOfNumbers {
 
         Scanner scan = new Scanner(System.in);
         Random x = new Random();
-        int luckyNumber;
-        luckyNumber = 1 + x.nextInt(1000);
+        int luckyNumber = 1 + x.nextInt(1000);
         System.out.println("Your number:");
         int number = scan.nextInt();
         System.out.printf("Your lucky Number is %d", luckyNumber);
@@ -23,6 +22,12 @@ public class AttributesOfNumbers {
             System.out.println("Your number is a lucky number");
         }
         if (number < 100 && number >= 10) {
+            System.out.println("Your number has two digits");
+        }
+        if (number < 100 && number >= 10) {
+            System.out.println("Your number has two digits");
+        }
+        if (number > -100 && number <= -10) {
             System.out.println("Your number has two digits");
         }
 
